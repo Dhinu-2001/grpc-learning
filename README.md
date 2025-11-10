@@ -21,32 +21,6 @@ You’ll find **two implementations** for both services:
 
 ---
 
-## 🧱 Folder Structure
-grpc-microservices/
-│
-├── order_service/
-│ ├── protos/
-│ │ └── order.proto
-│ ├── order_pb2.py
-│ ├── order_pb2_grpc.py
-│ ├── server.py # Synchronous gRPC Server
-│ ├── async_server.py # Async gRPC Server (grpc.aio)
-│ ├── order_to_user.py # Sync client to UserService
-│ ├── async_order_to_user.py # Async client to UserService
-│ ├── test_client.py # Sync test client
-│ └── async_test_client.py # Async test client
-│
-└── user_service/
-├── protos/
-│ └── user.proto
-├── user_pb2.py
-├── user_pb2_grpc.py
-├── server.py # Synchronous gRPC Server
-└── async_server.py # Async gRPC Server
-
-
----
-
 ## 🧰 Tech Stack
 
 - **Python 3.10+**
